@@ -10,18 +10,17 @@ println(displayWidth, displayHeight);
 int appWidth = displayWidth;
 int appHeight = displayHeight;
 //
-int paperWidth = 275; //MrM's Numbers
-int paperHeight = 210;
+int paperWidth = 215; //MrM's Numbers
+int paperHeight = 280;
 //
 // Students to use numbers from their chart to create ratios
 // Ratios are multiplied by pixel count
-float imageX = appWidth * 55 / paperWidth; //MrM's Numbers
-float imageY = appHeight * 20 / paperHeight;
-float imageWidth = appWidth * 160 / paperWidth;
-float imageHeight = appHeight * 120 / paperHeight;
+float imageX = appWidth * 50 / paperWidth; //MrM's Numbers
+float imageY = appHeight * 30 / paperHeight;
+float imageWidth = appWidth * 120 / paperWidth;
+float imageHeight = appHeight * 160 / paperHeight;
 //
 rect(imageX, imageY, imageWidth, imageHeight);
-//
 /* Students to name rect(parameters) according to their chart
 rect(songNameX, nameY, nameWidth, nameHeight);
  rect(artistX, nameY, nameWidth, nameHeight);
